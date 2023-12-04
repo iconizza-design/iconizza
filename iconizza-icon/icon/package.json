@@ -39,6 +39,7 @@
   "jsdelivr": "./dist/iconizza-icon.min.js",
   "types": "./dist/iconizza-icon.d.ts",
   "scripts": {
+    "prepublishOnly": "pnpm run build && pnpm run build:api && pnpm run build:dist",
     "clean": "rimraf lib dist tsconfig.tsbuildinfo",
     "lint": "eslint src/**/*.ts",
     "prebuild": "pnpm run lint && pnpm run clean",

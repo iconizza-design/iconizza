@@ -121,6 +121,7 @@
     }
   },
   "scripts": {
+    "prepublishOnly": "pnpm run build",
     "clean": "rimraf lib tsconfig.tsbuildinfo",
     "lint": "eslint --fix src/**/*.ts",
     "prebuild": "pnpm run lint && pnpm run clean",

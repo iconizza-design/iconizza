@@ -7,5 +7,5 @@ packages:
   - 'iconizza-icon/*'
   - 'components/*'
   - 'plugins/*'
-  - 'plugins-demo/*'
+  # - 'plugins-demo/*'
   # - 'debug/*'

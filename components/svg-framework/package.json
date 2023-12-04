@@ -56,6 +56,7 @@
   "types": "./dist/iconizza.d.ts",
   "browser": "./dist/iconizza.min.js",
   "scripts": {
+    "prepublishOnly": "pnpm run build",
     "clean": "rimraf lib dist tests-compiled tsconfig.tsbuildinfo",
     "lint": "eslint src/**/*.ts",
     "prebuild": "pnpm run lint && pnpm run clean",

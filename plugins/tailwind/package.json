@@ -15,6 +15,7 @@
   "main": "./dist/plugin.js",
   "types": "./dist/plugin.d.ts",
   "scripts": {
+    "prepublishOnly": "pnpm run build",
     "clean": "rimraf lib dist tsconfig.tsbuildinfo",
     "lint": "eslint src/**/*.ts",
     "prebuild": "pnpm run lint && pnpm run clean",

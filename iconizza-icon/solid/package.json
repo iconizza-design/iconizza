@@ -16,6 +16,7 @@
   "main": "dist/iconizza.jsx",
   "types": "dist/iconizza.d.ts",
   "scripts": {
+    "prepublishOnly": "pnpm run build",
     "clean": "rimraf lib dist tsconfig.tsbuildinfo",
     "prebuild": "pnpm run clean",
     "build": "tsc -b"
