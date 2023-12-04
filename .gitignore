@@ -6,3 +6,4 @@ lerna-debug.log
 .pnpm-debug.log
 .idea/
 .pnpm-store/
+.env

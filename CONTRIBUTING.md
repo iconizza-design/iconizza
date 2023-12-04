@@ -43,7 +43,7 @@ or
 
 ### NYXI
 
-Consider installing [NI](https://github.com/nyxb/nyxi), it makes it easy to work with any repository regardless of what package manager it uses.
+Consider installing [NYXI](https://github.com/nyxb/nyxi), it makes it easy to work with any repository regardless of what package manager it uses.
 
 Instead of figuring out if you should run `npm install` or `pnpm install` or `yarn install`, just run `nyxi` and it will execute current package manager, `nyxr build` to build, `nyxr test` to run tests test.
 

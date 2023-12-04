@@ -1,22 +1,43 @@
 {
   "name": "iconizza-icon",
+  "version": "0.0.0",
   "description": "Icon web component that loads icon data on demand. Over 150,000 icons to choose from",
   "author": "Dennis Ollhoff <contact@nyxb.email> (https://iconizza.design)",
-  "version": "1.0.8",
   "license": "MIT",
-  "main": "./dist/iconizza-icon.cjs",
-  "types": "./dist/iconizza-icon.d.ts",
-  "jsdelivr": "./dist/iconizza-icon.min.js",
-  "unpkg": "./dist/iconizza-icon.min.js",
-  "module": "./dist/iconizza-icon.mjs",
-  "bugs": "https://github.com/iconizza/iconizza/issues",
-  "homepage": "https://iconizza.design/",
   "funding": "https://github.com/sponsors/nyxb",
+  "homepage": "https://iconizza.design/",
   "repository": {
     "type": "git",
     "url": "https://github.com/iconizza/iconizza.git",
     "directory": "iconizza-icon/icon"
   },
+  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "types": "./dist/iconizza-icon.d.ts",
+      "import": "./dist/iconizza-icon.mjs",
+      "require": "./dist/iconizza-icon.cjs",
+      "default": "./dist/iconizza-icon.min.js"
+    },
+    "./dist/iconizza": {
+      "types": "./dist/iconizza-icon.d.ts",
+      "import": "./dist/iconizza-icon.mjs",
+      "require": "./dist/iconizza-icon.cjs",
+      "default": "./dist/iconizza-icon.min.js"
+    },
+    "./dist/iconizza.min": {
+      "types": "./dist/iconizza-icon.d.ts",
+      "import": "./dist/iconizza-icon.mjs",
+      "require": "./dist/iconizza-icon.cjs",
+      "default": "./dist/iconizza-icon.min.js"
+    }
+  },
+  "main": "./dist/iconizza-icon.cjs",
+  "module": "./dist/iconizza-icon.mjs",
+  "unpkg": "./dist/iconizza-icon.min.js",
+  "jsdelivr": "./dist/iconizza-icon.min.js",
+  "types": "./dist/iconizza-icon.d.ts",
   "scripts": {
     "clean": "rimraf lib dist tsconfig.tsbuildinfo",
     "lint": "eslint src/**/*.ts",
@@ -28,27 +49,6 @@
     "test:jest": "jest --runInBand",
     "test:mjs": "cross-env NODE_OPTIONS=--experimental-vm-modules node tests/import-test.mjs",
     "test": "pnpm run test:jest && pnpm run test:mjs"
-  },
-  "exports": {
-    "./*": "./*",
-    ".": {
-      "require": "./dist/iconizza-icon.cjs",
-      "import": "./dist/iconizza-icon.mjs",
-      "types": "./dist/iconizza-icon.d.ts",
-      "default": "./dist/iconizza-icon.min.js"
-    },
-    "./dist/iconizza": {
-      "require": "./dist/iconizza-icon.cjs",
-      "import": "./dist/iconizza-icon.mjs",
-      "types": "./dist/iconizza-icon.d.ts",
-      "default": "./dist/iconizza-icon.min.js"
-    },
-    "./dist/iconizza.min": {
-      "require": "./dist/iconizza-icon.cjs",
-      "import": "./dist/iconizza-icon.mjs",
-      "types": "./dist/iconizza-icon.d.ts",
-      "default": "./dist/iconizza-icon.min.js"
-    }
   },
   "dependencies": {
     "@iconizza/types": "workspace:^"
