@@ -1,0 +1,14 @@
+{
+  "name": "@iconizza/react/offline",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "types": "../dist/offline.d.ts",
+      "import": "../dist/offline.mjs",
+      "default": "../dist/offline.js"
+    }
+  },
+  "main": "../dist/offline.js",
+  "module": "../dist/offline.mjs",
+  "types": "../dist/offline.d.ts"
+}

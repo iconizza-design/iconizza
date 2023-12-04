@@ -1,0 +1,15 @@
+{
+  "name": "@iconizza-demo/tailwind",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@iconizza/tailwind": "workspace:*",
+    "tailwindcss": "^3.3.1"
+  }
+}

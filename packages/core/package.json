@@ -1,0 +1,143 @@
+{
+  "name": "@iconizza/core",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Reusable files used by multiple Iconizza packages",
+  "author": "Dennis Ollhoff <contact@nyxb.email> (https://iconizza.design)",
+  "license": "MIT",
+  "homepage": "https://iconizza.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza/iconizza.git",
+    "directory": "packages/core"
+  },
+  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "sideEffects": false,
+  "exports": {
+    "./*": "./*",
+    "./lib/api/callbacks": {
+      "import": "./lib/api/callbacks.mjs",
+      "require": "./lib/api/callbacks.cjs"
+    },
+    "./lib/api/config": {
+      "import": "./lib/api/config.mjs",
+      "require": "./lib/api/config.cjs"
+    },
+    "./lib/api/functions": {
+      "import": "./lib/api/functions.mjs",
+      "require": "./lib/api/functions.cjs"
+    },
+    "./lib/api/icons": {
+      "import": "./lib/api/icons.mjs",
+      "require": "./lib/api/icons.cjs"
+    },
+    "./lib/api/modules": {
+      "import": "./lib/api/modules.mjs",
+      "require": "./lib/api/modules.cjs"
+    },
+    "./lib/api/modules/fetch": {
+      "import": "./lib/api/modules/fetch.mjs",
+      "require": "./lib/api/modules/fetch.cjs"
+    },
+    "./lib/api/modules/mock": {
+      "import": "./lib/api/modules/mock.mjs",
+      "require": "./lib/api/modules/mock.cjs"
+    },
+    "./lib/api/query": {
+      "import": "./lib/api/query.mjs",
+      "require": "./lib/api/query.cjs"
+    },
+    "./lib/api/types": {
+      "import": "./lib/api/types.mjs",
+      "require": "./lib/api/types.cjs"
+    },
+    "./lib/browser-storage/config": {
+      "import": "./lib/browser-storage/config.mjs",
+      "require": "./lib/browser-storage/config.cjs"
+    },
+    "./lib/browser-storage/count": {
+      "import": "./lib/browser-storage/count.mjs",
+      "require": "./lib/browser-storage/count.cjs"
+    },
+    "./lib/browser-storage/data": {
+      "import": "./lib/browser-storage/data.mjs",
+      "require": "./lib/browser-storage/data.cjs"
+    },
+    "./lib/browser-storage/foreach": {
+      "import": "./lib/browser-storage/foreach.mjs",
+      "require": "./lib/browser-storage/foreach.cjs"
+    },
+    "./lib/browser-storage/functions": {
+      "import": "./lib/browser-storage/functions.mjs",
+      "require": "./lib/browser-storage/functions.cjs"
+    },
+    "./lib/browser-storage/global": {
+      "import": "./lib/browser-storage/global.mjs",
+      "require": "./lib/browser-storage/global.cjs"
+    },
+    "./lib/browser-storage": {
+      "import": "./lib/browser-storage/index.mjs",
+      "require": "./lib/browser-storage/index.cjs"
+    },
+    "./lib/browser-storage/index": {
+      "import": "./lib/browser-storage/index.mjs",
+      "require": "./lib/browser-storage/index.cjs"
+    },
+    "./lib/browser-storage/item": {
+      "import": "./lib/browser-storage/item.mjs",
+      "require": "./lib/browser-storage/item.cjs"
+    },
+    "./lib/browser-storage/mock": {
+      "import": "./lib/browser-storage/mock.mjs",
+      "require": "./lib/browser-storage/mock.cjs"
+    },
+    "./lib/browser-storage/store": {
+      "import": "./lib/browser-storage/store.mjs",
+      "require": "./lib/browser-storage/store.cjs"
+    },
+    "./lib/browser-storage/types": {
+      "import": "./lib/browser-storage/types.mjs",
+      "require": "./lib/browser-storage/types.cjs"
+    },
+    "./lib/builder/functions": {
+      "import": "./lib/builder/functions.mjs",
+      "require": "./lib/builder/functions.cjs"
+    },
+    "./lib/icon/list": {
+      "import": "./lib/icon/list.mjs",
+      "require": "./lib/icon/list.cjs"
+    },
+    "./lib/icon/sort": {
+      "import": "./lib/icon/sort.mjs",
+      "require": "./lib/icon/sort.cjs"
+    },
+    "./lib/storage/functions": {
+      "import": "./lib/storage/functions.mjs",
+      "require": "./lib/storage/functions.cjs"
+    },
+    "./lib/storage/storage": {
+      "import": "./lib/storage/storage.mjs",
+      "require": "./lib/storage/storage.cjs"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf lib tsconfig.tsbuildinfo",
+    "lint": "eslint --fix src/**/*.ts",
+    "prebuild": "pnpm run lint && pnpm run clean",
+    "build": "unbuild",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@iconizza/api-redundancy": "workspace:^",
+    "@iconizza/types": "workspace:^",
+    "@iconizza/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^18.17.1",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6",
+    "unbuild": "^1.2.1",
+    "vitest": "^0.34.1"
+  }
+}

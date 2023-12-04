@@ -1,0 +1,16 @@
+{
+  "name": "@iconizza-demo/nuxt3",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@iconizza/vue": "workspace:*"
+  },
+  "devDependencies": {
+    "nuxt": "npm:nuxt3@latest",
+    "ufo": "^0.8.4"
+  }
+}

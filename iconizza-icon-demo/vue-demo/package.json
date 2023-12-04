@@ -1,0 +1,18 @@
+{
+  "name": "@iconizza-icon/vue-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "iconizza-icon": "workspace:*",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  }
+}

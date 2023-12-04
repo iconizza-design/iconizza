@@ -1,0 +1,35 @@
+<div>
+  <section class='icon-24'>
+    <h1>Usage</h1>
+    <div>
+      Icon referenced by name:
+      <IconizzaIcon @icon='mdi:home' />
+    </div>
+    <div>
+      Icon referenced by object:
+      <IconizzaIcon @icon={{this.iconData}} />
+    </div>
+    <div class='alert'>
+      <IconizzaIcon @icon='mdi-light:alert' />
+      Important notice with alert icon!
+    </div>
+    <div>
+      Icon without size, scaled to 48px with CSS:
+      <IconizzaIcon @icon='mdi:home' @height='unset' style='height: 48px' />
+    </div>
+  </section>
+
+  <section class='inline-demo'>
+    <h1>Inline demo</h1>
+    <div>
+      Block icon (behaving like image):
+      <IconizzaIcon @icon='experiment2' />
+    </div>
+    <div>
+      Inline icon (behaving line text / icon font):
+      <IconizzaIcon @icon='experiment2' @inline={{true}} />
+    </div>
+  </section>
+
+  <ColorDemo />
+</div>

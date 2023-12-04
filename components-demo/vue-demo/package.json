@@ -1,0 +1,19 @@
+{
+  "name": "@iconizza-demo/vue",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@iconizza/types": "workspace:*",
+    "@iconizza/vue": "workspace:*",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@iconizza-icon/solid",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "SolidJS wrapper for Iconizza Icon web component",
+  "author": "Dennis Ollhoff",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/nyxb",
+  "homepage": "https://iconizza.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza/iconizza.git",
+    "directory": "iconizza-icon/solid"
+  },
+  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "main": "dist/iconizza.jsx",
+  "types": "dist/iconizza.d.ts",
+  "scripts": {
+    "clean": "rimraf lib dist tsconfig.tsbuildinfo",
+    "prebuild": "pnpm run clean",
+    "build": "tsc -b"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1"
+  },
+  "dependencies": {
+    "iconizza-icon": "workspace:^"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "solid-js": "^1.7.8",
+    "typescript": "^5.1.6"
+  }
+}

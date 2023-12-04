@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json",
+  "extends": "./api-extractor.json",
+  "mainEntryPointFilePath": "lib/offline-iconizza.d.ts",
+  "dtsRollup": {
+    "enabled": true,
+    "untrimmedFilePath": "<projectFolder>/dist/offline-iconizza.d.ts"
+  }
+}

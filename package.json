@@ -1,0 +1,38 @@
+{
+  "name": "iconizza",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.6.12",
+  "description": "The most versatile icon framework",
+  "author": "Dennis Ollhoff <contact@nyxb.email> (https://iconizza.design)",
+  "license": "MIT",
+  "homepage": "https://iconizza.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza/iconizza.git"
+  },
+  "bugs": "https://github.com/iconizza-design/iconizza/issues",
+  "scripts": {
+    "clean": "rm -rf */*/node_modules",
+    "build": "pnpm recursive --filter \"./(packages|iconizza-icon|components)/**\" run build",
+    "test": "pnpm recursive --filter \"./(packages|iconizza-icon|components)/**\" run test",
+    "lint": "pnpm recursive --filter \"./(packages|iconizza-icon|components)/**\" run lint"
+  },
+  "devDependencies": {
+    "@nyxb/eslint-config": "^2.0.0"
+  },
+  "pnpm": {
+    "packageExtensions": {
+      "vue-template-compiler": {
+        "peerDependencies": {
+          "vue": "^2.*"
+        }
+      },
+      "tsutils": {
+        "peerDependencies": {
+          "typescript": "*"
+        }
+      }
+    }
+  }
+}

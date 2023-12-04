@@ -1,0 +1,17 @@
+{
+	"name": "@iconizza-icon/nuxt3-demo",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@types/node": "^18.17.1",
+		"iconizza-icon": "workspace:*",
+		"nuxt": "^3.6.5",
+		"vue": "^3.3.4"
+	}
+}

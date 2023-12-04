@@ -1,0 +1,55 @@
+<div>
+  <section class='icon-24'>
+    <h1>Usage</h1>
+    <div>
+      Icon referenced by name:
+      <iconizza-icon icon='mdi:home'></iconizza-icon>
+    </div>
+    <div>
+      Icon referenced by serialised object:
+      <iconizza-icon icon={{this.iconData}}></iconizza-icon>
+    </div>
+    <div class='alert'>
+      <iconizza-icon icon='mdi-light:alert'></iconizza-icon>
+      Important notice with alert icon!
+    </div>
+  </section>
+
+  <section class='inline-demo'>
+    <h1>Inline demo</h1>
+    <div>
+      Block icon (behaving like image):
+      <iconizza-icon icon='demo-test'></iconizza-icon>
+    </div>
+    <div>
+      Inline icon (behaving line text / icon font):
+      <iconizza-icon icon='demo-test' inline></iconizza-icon>
+    </div>
+  </section>
+
+  <section class='render-demo icon-24'>
+    <h1>Render modes</h1>
+    <div>
+      Default render mode:
+      <iconizza-icon icon='line-md:discord' inline></iconizza-icon>
+    </div>
+    <div>
+      SVG:
+      <iconizza-icon icon='line-md:discord' mode='svg' inline></iconizza-icon>
+    </div>
+    <div>
+      Background or mask (detects based on presence of `currentColor`):
+      <iconizza-icon icon='line-md:discord' mode='style' inline></iconizza-icon>
+    </div>
+    <div>
+      Background (cannot use `currentColor`):
+      <iconizza-icon icon='line-md:discord' mode='bg' inline></iconizza-icon>
+    </div>
+    <div>
+      Mask:
+      <iconizza-icon icon='line-md:discord' mode='mask' inline></iconizza-icon>
+    </div>
+  </section>
+
+  <ColorDemo />
+</div>

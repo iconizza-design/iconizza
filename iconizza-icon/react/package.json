@@ -1,0 +1,55 @@
+{
+  "name": "@iconizza-icon/react",
+  "version": "0.0.0",
+  "description": "React wrapper for Iconizza Icon web component",
+  "author": "Dennis Ollhoff",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/nyxb",
+  "homepage": "https://iconizza.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza/iconizza.git",
+    "directory": "iconizza-icon/react"
+  },
+  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "types": "./dist/iconizza.d.ts",
+      "import": "./dist/iconizza.mjs",
+      "default": "./dist/iconizza.js"
+    },
+    "./lib/iconizza": {
+      "types": "./dist/iconizza.d.ts",
+      "import": "./dist/iconizza.mjs",
+      "require": "./dist/iconizza.js"
+    }
+  },
+  "main": "dist/iconizza.js",
+  "module": "dist/iconizza.mjs",
+  "types": "dist/iconizza.d.ts",
+  "scripts": {
+    "clean": "rimraf lib dist tsconfig.tsbuildinfo",
+    "prebuild": "pnpm run clean",
+    "build": "tsup",
+    "test": "vitest --config vitest.config.mjs"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "dependencies": {
+    "iconizza-icon": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "@types/react-test-renderer": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "jest": "^29.6.2",
+    "react": "^18.2.0",
+    "react-test-renderer": "^18.2.0",
+    "rimraf": "^5.0.1",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
+  }
+}

@@ -1,0 +1,11 @@
+packages:
+  - packages/types
+  - packages/api-redundancy
+  - packages/utils
+  - packages/core
+  - iconizza-icon/icon
+  - 'iconizza-icon/*'
+  - 'components/*'
+  - 'plugins/*'
+  - 'plugins-demo/*'
+  # - 'debug/*'

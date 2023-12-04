@@ -1,0 +1,65 @@
+{
+  "name": "@iconizza/vue",
+  "version": "0.0.0",
+  "description": "Iconizza icon component for Vue 3.",
+  "author": "Dennis Ollhoff",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/nyxb",
+  "homepage": "https://iconizza.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza/iconizza.git",
+    "directory": "components/vue"
+  },
+  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "types": "./dist/iconizza.d.ts",
+      "import": "./dist/iconizza.mjs",
+      "default": "./dist/iconizza.js"
+    },
+    "./offline": {
+      "types": "./dist/offline.d.ts",
+      "import": "./dist/offline.mjs",
+      "default": "./dist/offline.js"
+    },
+    "./dist/offline": {
+      "types": "./dist/offline.d.ts",
+      "import": "./dist/offline.mjs",
+      "default": "./dist/offline.js"
+    }
+  },
+  "main": "dist/iconizza.js",
+  "module": "dist/iconizza.mjs",
+  "types": "dist/iconizza.d.ts",
+  "scripts": {
+    "build": "node build",
+    "build:lib": "tsc -b",
+    "build:dist": "rollup -c rollup.config.mjs",
+    "prebuild:api": "api-extractor run --local --verbose --config api-extractor.offline.json",
+    "build:api": "api-extractor run --local --verbose --config api-extractor.iconizza.json",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "vue": ">=3"
+  },
+  "dependencies": {
+    "@iconizza/types": "workspace:^"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.4",
+    "@iconizza/core": "workspace:^",
+    "@iconizza/utils": "workspace:^",
+    "@microsoft/api-extractor": "^7.35.1",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@types/jest": "^29.5.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^21.1.2",
+    "rollup": "^3.23.1",
+    "typescript": "^5.1.3",
+    "vitest": "^0.29.8",
+    "vue": "^3.3.4"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@iconizza/ember",
+  "version": "0.0.0",
+  "description": "Iconizza icon component for Ember.",
+  "author": "Dennis Ollhoff",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/nyxb",
+  "homepage": "https://iconizza.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza-design/iconizza.git",
+    "directory": "components/ember"
+  },
+  "bugs": "https://github.com/iconizza-design/iconizza/issues",
+  "keywords": [
+    "ember-addon"
+  ],
+  "scripts": {
+    "build": "node build",
+    "build:lib": "tsc -b",
+    "build:rollup": "rollup -c rollup.config.mjs",
+    "build:api": "api-extractor run --local --verbose --config api-extractor.json",
+    "build:cleanup": "node cleanup"
+  },
+  "dependencies": {
+    "@glimmer/component": "^1.1.2",
+    "@glimmer/tracking": "^1.1.2",
+    "@iconizza/types": "workspace:^",
+    "ember-cli-babel": "^7.26.11",
+    "ember-cli-htmlbars": "^6.2.0"
+  },
+  "devDependencies": {
+    "@iconizza/core": "workspace:^",
+    "@iconizza/utils": "workspace:^",
+    "@microsoft/api-extractor": "^7.34.4",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.20.2",
+    "typescript": "^5.0.3"
+  },
+  "ember": {
+    "edition": "octane"
+  },
+  "ember-addon": {}
+}

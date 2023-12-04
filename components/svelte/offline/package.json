@@ -1,0 +1,7 @@
+{
+  "name": "@iconizza/svelte/offline",
+  "svelte": "../dist/OfflineIcon.svelte",
+  "main": "../dist/offline.js",
+  "module": "../dist/offline.mjs",
+  "types": "../dist/offline.d.ts"
+}

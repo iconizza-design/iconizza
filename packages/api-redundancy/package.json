@@ -1,0 +1,37 @@
+{
+  "name": "@iconizza/api-redundancy",
+  "version": "1.1.1",
+  "description": "Reusable redundancy library for API queries",
+  "author": "Dennis Ollhoff",
+  "license": "MIT",
+  "homepage": "https://iconizza.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza/iconizza.git",
+    "directory": "packages/api-redundancy"
+  },
+  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint src/*.ts",
+    "prebuild": "pnpm run lint",
+    "build": "tsup src/index.ts --dts --format esm,cjs",
+    "test": "vitest --config vitest.config.mjs"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^18.17.1",
+    "cross-env": "^7.0.3",
+    "tsup": "^7.1.0",
+    "vitest": "^0.34.1"
+  }
+}

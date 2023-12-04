@@ -1,0 +1,22 @@
+{
+  "name": "@iconizza-demo/svelte",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --single --port 3000"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.2"
+  },
+  "devDependencies": {
+    "@iconizza/svelte": "workspace:*",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-svelte": "^7.1.4",
+    "svelte": "^3.58.0"
+  }
+}

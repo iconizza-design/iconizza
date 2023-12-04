@@ -1,0 +1,16 @@
+{
+  "name": "@iconizza/iconizza/offline",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "types": "../dist/iconizza.without-api.d.ts",
+      "import": "../dist/iconizza.without-api.mjs",
+      "require": "../dist/iconizza.without-api.cjs",
+      "default": "../dist/iconizza.without-api.min.js"
+    }
+  },
+  "main": "../dist/iconizza.without-api.min.js",
+  "module": "../dist/iconizza.without-api.mjs",
+  "types": "../dist/iconizza.without-api.d.ts",
+  "browser": "../dist/iconizza.without-api.min.js"
+}

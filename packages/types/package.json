@@ -1,0 +1,23 @@
+{
+  "name": "@iconizza/types",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Types for Iconizza data",
+  "author": "Dennis Ollhoff",
+  "license": "MIT",
+  "homepage": "https://iconizza.design/docs/types/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconizza/iconizza.git",
+    "directory": "packages/types"
+  },
+  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "main": "./types.js",
+  "types": "./types.d.ts",
+  "scripts": {
+    "test": "tsc --noEmit --strict --typeRoots '[]' types.d.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
