@@ -21,13 +21,13 @@ Iconizza SVG framework is designed to be as easy to use as possible.
 Add this line to your page to load Iconizza SVG framework (you can add it to `<head>` section of the page or before `</body>`):
 
 ```html
-<script src="https://code.iconizza.design/3/0.0.0/iconizza.min.js"></script>
+<script src="https://code.iconizza.design/3/0.0.2/iconizza.min.js"></script>
 ```
 
 or
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@iconizza/iconizza@0.0.0/dist/iconizza.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@iconizza/iconizza@0.0.2/dist/iconizza.min.js"></script>
 ```
 
 or, if you are building a project with something like WebPack or Rollup, you can include the script by installing `@iconizza/iconizza` as a dependency and importing it in your project:
