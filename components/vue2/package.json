@@ -1,6 +1,6 @@
 {
   "name": "@iconizza/vue2",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Iconizza icon component for Vue 2.",
   "author": "Dennis Ollhoff",
   "license": "MIT",
