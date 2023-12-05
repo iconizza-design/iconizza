@@ -25,7 +25,7 @@ jobs:
         run: npm i -g @nyxb/nyxi
 
       - name: Install
-        run: nyxci
+        run: nyxi
 
       - run: npx github-craftchangelogs
         env:
