@@ -1,7 +1,7 @@
 {
   "name": "@iconizza-icon/solid",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "SolidJS wrapper for Iconizza Icon web component",
   "author": "Dennis Ollhoff",
   "license": "MIT",
