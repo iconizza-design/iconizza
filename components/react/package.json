@@ -34,7 +34,7 @@
   "module": "dist/iconizza.mjs",
   "types": "dist/iconizza.d.ts",
   "scripts": {
-    "prepublishOnly": "pnpm run build",
+    "prepublishOnly": "pnpm run build && pnpm run build:api && pnpm run build:dist && pnpm run build:lib",
     "clean": "rimraf lib dist tsconfig.tsbuildinfo",
     "prebuild": "pnpm run clean",
     "build": "node build",
