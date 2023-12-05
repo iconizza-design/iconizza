@@ -34,7 +34,7 @@
   "module": "dist/iconizza.mjs",
   "types": "dist/iconizza.d.ts",
   "scripts": {
-    "prepublishOnly": "pnpm run build",
+    "prepublishOnly": "pnpm run build && pnpm run build:api && pnpm run build:lib && pnpm run build:dist",
     "build": "node build",
     "build:lib": "tsc -b",
     "build:dist": "rollup -c rollup.config.mjs",
