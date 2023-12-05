@@ -1,6 +1,6 @@
 {
   "name": "@iconizza/api-redundancy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Reusable redundancy library for API queries",
   "author": "Dennis Ollhoff",
   "license": "MIT",

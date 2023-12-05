@@ -1,7 +1,7 @@
 {
   "name": "@iconizza/utils",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Common functions for working with Iconizza icon sets used by various packages.",
   "author": "Dennis Ollhoff",
   "license": "MIT",

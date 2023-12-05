@@ -1,7 +1,7 @@
 {
   "name": "@iconizza/types",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Types for Iconizza data",
   "author": "Dennis Ollhoff",
   "license": "MIT",

@@ -14,13 +14,15 @@
   "bugs": "https://github.com/iconizza-design/iconizza/issues",
   "scripts": {
     "clean": "rm -rf */*/node_modules",
-    "build": "pnpm recursive --filter \"./(packages|iconizza-icon|components)/**\" run build",
-    "test": "pnpm recursive --filter \"./(packages|iconizza-icon|components)/**\" run test",
-    "lint": "pnpm recursive --filter \"./(packages|iconizza-icon|components)/**\" run lint",
+    "build": "pnpm -r --filter \"./(packages|iconizza-icon|components)/**\" run build",
+    "test": "pnpm -r --filter \"./(packages|iconizza-icon|components)/**\" run test",
+    "lint": "pnpm -r --filter \"./(packages|iconizza-icon|components)/**\" run lint",
     "release": "bumping -r && pnpm -r publish"
   },
   "devDependencies": {
-    "@nyxb/eslint-config": "^2.0.0"
+    "@nyxb/eslint-config": "^2.0.0",
+    "@nyxb/nyxi": "^0.0.31",
+    "bumping": "^9.2.1"
   },
   "pnpm": {
     "packageExtensions": {
@@ -35,5 +37,6 @@
         }
       }
     }
-  }
+  },
+  "version": "0.0.1"
 }

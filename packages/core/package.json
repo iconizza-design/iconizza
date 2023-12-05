@@ -1,7 +1,7 @@
 {
   "name": "@iconizza/core",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Reusable files used by multiple Iconizza packages",
   "author": "Dennis Ollhoff <contact@nyxb.email> (https://iconizza.design)",
   "license": "MIT",
