@@ -1,6 +1,6 @@
 {
   "name": "@iconizza/ember",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Iconizza icon component for Ember.",
   "author": "Dennis Ollhoff",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "ember-addon"
   ],
   "scripts": {
-    "prepublishOnly": "pnpm run build",
+    "prepublishOnly": "pnpm run build && pnpm run build:api && pnpm run build:rollup",
     "build": "node build",
     "build:lib": "tsc -b",
     "build:rollup": "rollup -c rollup.config.mjs",
