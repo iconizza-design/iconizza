@@ -38,7 +38,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/iconizza/iconizza/tree/main/iconizza-icon/icon">
+		<a href="https://github.com/iconizza-design/iconizza/tree/main/iconizza-icon/icon">
 			<iconizza-icon icon="line-md:iconizza1" title="Iconizza" />
 		</a>
 	</div>

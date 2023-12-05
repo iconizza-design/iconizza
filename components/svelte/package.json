@@ -5,13 +5,13 @@
   "author": "Dennis Ollhoff",
   "license": "MIT",
   "funding": "https://github.com/sponsors/nyxb",
-  "homepage": "https://github.com/iconizza/iconizza",
+  "homepage": "https://github.com/iconizza-design/iconizza",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iconizza/iconizza.git",
+    "url": "https://github.com/iconizza-design/iconizza.git",
     "directory": "components/svelte"
   },
-  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "bugs": "https://github.com/iconizza-design/iconizza/issues",
   "svelte": "dist/Icon.svelte",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

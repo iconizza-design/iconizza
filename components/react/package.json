@@ -8,10 +8,10 @@
   "homepage": "https://iconizza.design/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iconizza/iconizza.git",
+    "url": "https://github.com/iconizza-design/iconizza.git",
     "directory": "components/react"
   },
-  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "bugs": "https://github.com/iconizza-design/iconizza/issues",
   "exports": {
     "./*": "./*",
     ".": {

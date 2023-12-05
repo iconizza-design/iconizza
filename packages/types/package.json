@@ -8,10 +8,10 @@
   "homepage": "https://iconizza.design/docs/types/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iconizza/iconizza.git",
+    "url": "https://github.com/iconizza-design/iconizza.git",
     "directory": "packages/types"
   },
-  "bugs": "https://github.com/iconizza/iconizza/issues",
+  "bugs": "https://github.com/iconizza-design/iconizza/issues",
   "main": "./types.js",
   "types": "./types.d.ts",
   "scripts": {

@@ -38,7 +38,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/iconizza/iconizza/tree/main/components/svelte">
+		<a href="https://github.com/iconizza-design/iconizza/tree/main/components/svelte">
 			<Icon icon="line-md:iconizza1" title="Iconizza" />
 		</a>
 	</div>

@@ -21,8 +21,8 @@ What is included in this repository?
 
 Other repositories you might want to look at:
 
--   Data for all icons is available in [`iconizza/icon-sets`](https://github.com/iconizza/icon-sets) repository.
--   Tools for parsing icons and generating icon sets are available in [`iconizza/tools`](https://github.com/iconizza/tools) repository.
+-   Data for all icons is available in [`iconizza/icon-sets`](https://github.com/iconizza-design/icon-sets) repository.
+-   Tools for parsing icons and generating icon sets are available in [`iconizza/tools`](https://github.com/iconizza-design/tools) repository.
 
 ## Iconizza icon components
 

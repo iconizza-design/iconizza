@@ -45,7 +45,7 @@ To add any icon, write something like this:
 
 That is it. Change `icon` attribute to the name of the icon you want to use. There are over 200,000 premade icons to choose from, including Material Symbols, Photphor, Remix Icons, Carbon, Unicons, Bootstrap Icons and even several emoji sets.
 
-Do you want to make your own icon sets? Everything you need is [available on GitHub](https://github.com/iconizza): tools for creating custom icon sets, Iconizza API application and documentation to help you.
+Do you want to make your own icon sets? Everything you need is [available on GitHub](https://github.com/iconizza-design): tools for creating custom icon sets, Iconizza API application and documentation to help you.
 
 ## Advantages
 

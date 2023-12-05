@@ -7,7 +7,7 @@ const header = `/**
 * (c) Iconizza for Tailwind CSS
 *
 * For the full copyright and license information, please view the license.txt
-* files at https://github.com/iconizza/iconizza
+* files at https://github.com/iconizza-design/iconizza
 *
 * Licensed under MIT.
 *

@@ -438,7 +438,7 @@ In an example above, all icons that start with "baseline-", such as "baseline-ho
 
 #### All attributes
 
-For an example of full icon set files that include metadata, look in icon set files in `@iconizza/json` package or browse it at GitHub: [https://github.com/iconizza/icon-sets](https://github.com/iconizza/icon-sets)
+For an example of full icon set files that include metadata, look in icon set files in `@iconizza/json` package or browse it at GitHub: [https://github.com/iconizza-design/icon-sets](https://github.com/iconizza-design/icon-sets)
 
 For an example of individual icons, look in JavaScript files in NPM packages such as `@iconizza/icons-mdi`.
 

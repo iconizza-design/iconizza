@@ -55,7 +55,7 @@ or this:
 
 That is it. Change `data-icon` value to the name of the icon you want to use. There are over 200,000 premade icons to choose from, including FontAwesome, Material Design Icons, Tabler Icons, Box Icons, Unicons, Bootstrap Icons and even several emoji sets.
 
-Do you want to make your own icon sets? Everything you need is [available on GitHub](https://github.com/iconizza): tools for creating custom icon sets, Iconizza API application and documentation to help you.
+Do you want to make your own icon sets? Everything you need is [available on GitHub](https://github.com/iconizza-design): tools for creating custom icon sets, Iconizza API application and documentation to help you.
 
 ## Web component
 
@@ -154,7 +154,7 @@ Unlike icon fonts, Iconizza SVG framework does not load the entire icon set. Unl
 
 Relying on a third party service is often not an option. Many companies and developers prefer to keep everything on their own servers to have full control.
 
-Iconizza API and icon sets are all [available on GitHub](https://github.com/iconizza), making it easy to host API on your own server.
+Iconizza API and icon sets are all [available on GitHub](https://github.com/iconizza-design), making it easy to host API on your own server.
 
 For more details see [Iconizza API documentation](https://iconizza.design/docs/api/).
 
