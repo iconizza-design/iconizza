@@ -1,6 +1,6 @@
 {
   "name": "@iconizza/svelte",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Iconizza icon component for Svelte.",
   "author": "Dennis Ollhoff",
   "license": "MIT",
