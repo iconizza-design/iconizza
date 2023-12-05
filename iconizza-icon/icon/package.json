@@ -1,6 +1,6 @@
 {
   "name": "iconizza-icon",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Icon web component that loads icon data on demand. Over 150,000 icons to choose from",
   "author": "Dennis Ollhoff <contact@nyxb.email> (https://iconizza.design)",
   "license": "MIT",

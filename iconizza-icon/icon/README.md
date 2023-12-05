@@ -20,13 +20,13 @@ Iconizza Icon web component renders icons.
 Add this line to your page to load IconizzaIcon (you can add it to `<head>` section of the page or before `</body>`):
 
 ```html
-<script src="https://code.iconizza.design/iconizza-icon/0.0.0/iconizza-icon.min.js"></script>
+<script src="https://code.iconizza.design/iconizza-icon/0.0.2/iconizza-icon.min.js"></script>
 ```
 
 or
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/iconizza-icon@0.0.0/dist/iconizza-icon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/iconizza-icon@0.0.2/dist/iconizza-icon.min.js"></script>
 ```
 
 or, if you are building a project with a bundler, you can include the script by installing `iconizza-icon` as a dependency and importing it in your project:
