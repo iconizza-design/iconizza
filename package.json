@@ -1,7 +1,7 @@
 {
   "name": "iconizza",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "packageManager": "pnpm@8.6.12",
   "description": "The most versatile icon framework",

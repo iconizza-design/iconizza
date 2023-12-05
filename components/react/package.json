@@ -49,13 +49,13 @@
     "react": ">=16"
   },
   "dependencies": {
-    "@iconizza/types": "^0.0.1"
+    "@iconizza/types": "^0.0.2"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.4",
     "@babel/preset-react": "^7.22.3",
-    "@iconizza/core": "^0.0.1",
-    "@iconizza/utils": "^0.0.1",
+    "@iconizza/core": "^0.0.2",
+    "@iconizza/utils": "^0.0.2",
     "@microsoft/api-extractor": "^7.35.1",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@types/react": "^18.2.8",
