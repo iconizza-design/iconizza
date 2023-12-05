@@ -15,7 +15,8 @@
   "main": "./types.js",
   "types": "./types.d.ts",
   "scripts": {
-    "test": "tsc --noEmit --strict --typeRoots '[]' types.d.ts"
+    "test": "tsc --noEmit --strict --typeRoots '[]' types.d.ts",
+    "publish": "pnpm publish --access public --no-git-checks"
   },
   "devDependencies": {
     "typescript": "^5.1.6"

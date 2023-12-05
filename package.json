@@ -18,7 +18,8 @@
     "build": "pnpm -r --filter \"./(packages|iconizza-icon|components)/**\" run build",
     "test": "pnpm -r --filter \"./(packages|iconizza-icon|components)/**\" run test",
     "lint": "pnpm -r --filter \"./(packages|iconizza-icon|components)/**\" run lint",
-    "release": "bumping package.json packages/*/package.json --all -x \"zx scripts/update-versions.mjs\""
+    "release": "bumping package.json packages/*/package.json --all -x \"zx scripts/update-versions.mjs\"",
+    "publish": "pnpm -r --filter \"./packages/**\" run publish"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "^2.0.0",

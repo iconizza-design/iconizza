@@ -26,7 +26,8 @@
     "lint": "eslint src/*.ts",
     "prebuild": "pnpm run lint",
     "build": "tsup src/index.ts --dts --format esm,cjs",
-    "test": "vitest --config vitest.config.mjs"
+    "test": "vitest --config vitest.config.mjs",
+    "publish": "pnpm publish --access public --no-git-checks"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",

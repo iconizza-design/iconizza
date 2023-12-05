@@ -126,7 +126,8 @@
     "lint": "eslint --fix src/**/*.ts",
     "prebuild": "pnpm run lint && pnpm run clean",
     "build": "unbuild",
-    "test": "vitest"
+    "test": "vitest",
+    "publish": "pnpm publish --access public --no-git-checks"
   },
   "dependencies": {
     "@iconizza/api-redundancy": "workspace:^",

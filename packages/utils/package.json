@@ -394,13 +394,15 @@
     "lib"
   ],
   "scripts": {
+    "prepublishOnly": "pnpm run build",
     "clean": "rimraf lib tsconfig.tsbuildinfo",
     "lint": "eslint --fix src/**/*.ts",
     "prebuild": "pnpm run lint && pnpm run clean",
     "build": "unbuild",
     "test:cjs": "vitest --config vitest.config.cjs",
     "test:esm": "vitest --config vitest.config.mjs",
-    "test": "pnpm run test:cjs && pnpm run test:esm"
+    "test": "pnpm run test:cjs && pnpm run test:esm",
+    "publish": "pnpm publish --access public --no-git-checks"
   },
   "dependencies": {
     "@iconizza/types": "workspace:^",
